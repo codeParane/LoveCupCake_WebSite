@@ -1,0 +1,71 @@
+/*Reset Margin and Padding*/
+body{margin:0;padding:0;}
+
+/*navigation mesu style*/
+.nav-menu{float:left;border-raidus:0;text-align:center;border-radius:0;margin:0;color:#fff;border:none;font-family:comic sans ms;}
+.nav-menu:nth-child(1){background-color:#ed95b8;}
+.nav-menu:nth-child(2){background-color:#9dc084;}
+.nav-menu:nth-child(3){background-color:#a7cfe8;}
+.nav-menu:nth-child(4){background-color:#e3a340;}
+.nav-menu:nth-child(5){background-color:#7c7c92;}
+.nav-menu:nth-child(6){background-color:#debc86;}
+.nav-menu:nth-child(1):hover{background-color:#fff;color:#ed95b8;}
+.nav-menu:nth-child(2):hover{background-color:#fff;color:#9dc084;}
+.nav-menu:nth-child(3):hover{background-color:#fff;color:#a7cfe8;}
+.nav-menu:nth-child(4):hover{background-color:#fff;color:#e3a340;}
+.nav-menu:nth-child(5):hover{background-color:#fff;color:#7c7c92;}
+.nav-menu:nth-child(6):hover{background-color:#fff;color:#debc86;}
+/*first section*/
+.first-view {background-image: url('../Resources/cake-bg.jpg');background-size:cover;color: #fff;}
+/*second section*/
+.second-description{margin-bottom: 4rem;}
+/*third section*/
+.third-view {background-image: url('../Resources/cake2-bg.jpg');background-size:cover;color:#fff;padding-bottom: 5rem;}
+.third-percentage {margin-bottom: .5rem;color: #11DFC7;}
+.third-heading {margin-bottom: .3rem;}
+.third-description {opacity: .8;font-weight: 300;}
+
+/*custom*/
+.custom-head{color:#7c7c92;font-family:comic sans ms;}
+.custom-btn{background-color:#503c33;color:#fff;font-family:Arial;}
+.custom-footer{text-align:center;background-color:#028cbc;color:#fff;font-family:arial;}
+.custom-footer a{text-decoration:none;color:#f56436;}
+
+/*common section*/
+.section {padding: 8rem 0 7rem;text-align: center;}
+.section-heading, .section-description {margin-bottom: 1.2rem;}
+
+.columns img{width:99%;}
+
+
+
+
+/*Responsive View CSS*/
+/* Screen Bigger than 550 */
+@media (min-width: 550px){
+  .section {
+    padding: 12rem 0 11rem;
+  }
+}
+
+/* Screen Bigger than 750 */
+@media (min-width: 750px){
+  .section {
+    padding: 14rem 0 15rem;
+  }
+  .second-description{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Screen Bigger than 1000 */
+@media (min-width: 1000px){
+  .section {
+    padding: 20rem 0 19rem;
+  }
+  .cont3{
+    display:block;
+  }
+}
